@@ -7,7 +7,7 @@ This project will start by running the included shell-script (run-ansible-test.s
 - Ansible installed
 
 ## Starting playbook test with container:
-```bash run-ansible-test.sh```
+Execute command: ```bash run-ansible-test.sh```
 
 The first run will take some time since it's downloading necessary images and packages.
 
