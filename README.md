@@ -2,6 +2,8 @@
 
 This project will start by running the included shell-script (run-ansible-test.sh). It will create a CentOS 7 based Docker container, start it and make the necessary installation and changes to configuration files to enable using SSH connection for Ansible. After the container has booted up, the script will continue to run Ansible playbook "myplaybook.yml". By default there is one role with one task included, that will output "Hello from helloworld-role!" to console. At last, the container will be stopped and removed.
 
+There is also an additional step and script included, that is used to create an additional user to the container. This is not necessary for testing Ansible, but I thought it might be useful for some other cases.
+
 ## Prequisites:
 - Docker installed and daemon running
 - Ansible installed
