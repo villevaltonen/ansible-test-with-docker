@@ -8,6 +8,7 @@ This project will start by running the included shell-script (run-ansible-test.s
 
 ## Starting playbook test with container:
 Execute command: ```bash run-ansible-test.sh <a free port>```
+
 The script expects a free port number as an argument.
 The first run will take some time since it's downloading necessary images and packages.
 
