@@ -1,0 +1,5 @@
+---
+
+# echo hello world for testing
+- name: printing hello world
+  shell: echo "Hello from helloworld-role!"
