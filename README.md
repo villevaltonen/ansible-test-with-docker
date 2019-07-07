@@ -17,4 +17,6 @@ The first run will take some time since it's downloading necessary images and pa
 ## Additional info:
 Currently the exposed port of the container is given as an argument for script. If you get an error about ports when starting up, replace the exposed port number with a port number that is free on your host machine.
 
+If you want to see less output during the run of the playbook, remove chars from "-vvvv" or remove it completely.
+
 This project is initially created for testing Ansible-playbooks on WSL (Windows Subsystem for Linux), but it should be multiplatform. Please let me know if you're encountering issues with other operating systems or with WSL.
