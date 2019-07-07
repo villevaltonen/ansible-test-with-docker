@@ -1,6 +1,6 @@
-# Testing Jenkins installation with local Docker container
+# Testing Ansible playbook with local Docker container
 
-This project will start by running the included shell-script (run-ansible-test.sh). It will create a CentOS based Docker container and run it. After the container has booted up, the script will continue to use Ansible to install Jenkins into the container and testing that it has successfully started. At last, the container will be stopped and removed.
+This project will start by running the included shell-script (run-ansible-test.sh). It will create a CentOS based Docker container and run it. After the container has booted up, the script will continue to run Ansible playbook "myplaybook.yml". By default there is one role with one task included, that will output "Hello from helloworld-role!" to console. At last, the container will be stopped and removed.
 
 ## Prequisites:
 - Docker installed and daemon running
