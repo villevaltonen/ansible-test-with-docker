@@ -13,4 +13,5 @@ The first run will take some time since it's downloading necessary images and pa
 
 ## Additional info:
 Currently the exposed port of the container is hardcoded. If you get an error about ports when starting up, replace the exposed port number (32768) in run-ansible-test.sh with a port number that is free on your host machine.
- 
+
+This project is initially created for testing Ansible-playbooks on WSL (Windows Subsystem for Linux), but it should be multiplatform. Please let me know if you're encountering issues with other operating systems or with WSL.
