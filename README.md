@@ -7,7 +7,7 @@ This project will start by running the included shell-script (run-ansible-test.s
 - Ansible installed
 
 ## Starting playbook test with container:
-```bash run-ansible-test.sh```
+```bash run-ansible-test.sh``` (the first run will take some time since it's downloading necessary images and packages)
 
 ## Additional info:
 Currently the exposed port of the container is hardcoded. If you get an error about ports when starting up, replace the exposed port number (32768) in run-ansible-test.sh with a port number that is free on your host machine.
