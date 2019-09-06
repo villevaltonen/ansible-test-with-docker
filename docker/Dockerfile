@@ -17,7 +17,7 @@ RUN ssh-keygen -t rsa -f /etc/ssh/ssh_host_rsa_key -N ''
 # setting permissions for shell script
 #RUN chmod 755 /start.sh
 
-# exposing ssh port 22
+# executing user creation script
 #RUN ./start.sh
 
 # setting entrypoint for image
