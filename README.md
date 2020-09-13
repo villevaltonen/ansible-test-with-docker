@@ -1,6 +1,6 @@
 # Testing Ansible playbook with local Docker container
 
-This project will start by running the included shell-script (run-ansible-test.sh). It will create a CentOS 7 based Docker container, start it and make the necessary installation and changes to configuration files to enable using SSH connection for Ansible. After the container has booted up, the script will continue to run Ansible playbook "myplaybook.yml". By default there is one role with one task included, that will output "Hello from helloworld-role!" to console. At last, the container will be stopped and removed.
+This project will start by running the included shell-script (run-ansible-test.sh). It will create a CentOS 8 based Docker container, start it and make the necessary installation and changes to configuration files to enable using SSH connection for Ansible. After the container has booted up, the script will continue to run Ansible playbook "myplaybook.yml". By default there is one role with one task included, that will output "Hello from helloworld-role!" to console. At last, the container will be stopped and removed.
 
 There is also an additional step and script included, that is used to create an additional user to the container. This is not necessary for testing Ansible, but I thought it might be useful for some other cases.
 
@@ -19,4 +19,4 @@ Currently the exposed port of the container is given as an argument for script. 
 
 If you want to see less output during the run of the playbook, remove chars from "-vvvv" or remove it completely.
 
-This project is initially created for testing Ansible-playbooks on WSL (Windows Subsystem for Linux), but it should be multiplatform. Please let me know if you're encountering issues with other operating systems or with WSL.
+This project is initially created for testing Ansible-playbooks on WSL (Windows Subsystem for Linux) when I was still using Windows for development, but it is multiplatform (works on Linux as well). Please let me know if you're encountering issues with other operating systems or with WSL.
